@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Chip Frame -->
+    <path
+        android:fillColor="#1E3A5F"
+        android:pathData="M38,30 h32 a8,8 0 0 1 8,8 v32 a8,8 0 0 1 -8,8 h-32 a8,8 0 0 1 -8,-8 v-32 a8,8 0 0 1 8,-8 z" />
+    
+    <!-- Chip Pins -->
+    <path
+        android:fillColor="#48CAE4"
+        android:pathData="M44,26 h4 v4 h-4 z M52,26 h4 v4 h-4 z M60,26 h4 v4 h-4 z
+                          M44,78 h4 v4 h-4 z M52,78 h4 v4 h-4 z M60,78 h4 v4 h-4 z
+                          M26,44 h4 v4 h-4 z M26,52 h4 v4 h-4 z M26,60 h4 v4 h-4 z
+                          M78,44 h4 v4 h-4 z M78,52 h4 v4 h-4 z M78,60 h4 v4 h-4 z" />
+
+    <!-- Pulse Line Graphic (Electric Cyan / Accent) -->
+    <path
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,54 L44,54 L48,42 L52,66 L56,46 L60,58 L64,54 L74,54" />
+        
+    <!-- Glowing Node Dot -->
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M 60, 58 m -2.5, 0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+</vector>
