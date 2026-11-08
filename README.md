@@ -4,6 +4,37 @@
 
 ---
 
+## 📸 Screenshots
+
+### Mobile Experience (Compact Form Factor)
+
+| **Overview Dashboard** | **CPU Telemetry** |
+|:---:|:---:|
+| <img src="screenshots/01_overview.png" alt="Overview Dashboard" width="360" /> | <img src="screenshots/02_cpu.png" alt="CPU Telemetry" width="360" /> |
+| *Hero Expressive Gauges, multi-stream sparklines & system vitals* | *Tri-cluster core breakdown, clock scaling & per-core wavy indicators* |
+
+| **GPU & Graphics Telemetry** | **RAM & ZRAM Swap** |
+|:---:|:---:|
+| <img src="screenshots/03_gpu.png" alt="GPU & Graphics" width="360" /> | <img src="screenshots/04_ram.png" alt="RAM & ZRAM Swap" width="360" /> |
+| *Mali/Adreno driver telemetry, clock scaling & Vulkan 1.3 capabilities* | *Kernel memory distribution, Page Cache, and ZRAM compression* |
+
+| **Process Telemetry & App Vitals** |
+|:---:|
+| <img src="screenshots/05_processes.png" alt="Process Telemetry" width="360" /> |
+| *Runtime vitals (PSS, Heap, Threads) & recent application usage* |
+
+---
+
+### Adaptive Large Screen / Foldable / Tablet Experience
+
+PerfPulse automatically adapts its layout on wide screens, foldables, and tablets using `NavigationSuiteScaffold`. It docks a **Navigation Rail** on the left and expands telemetry widgets into a responsive multi-column grid:
+
+<p align="center">
+  <img src="screenshots/06_tablet_adaptive.png" alt="Tablet / Foldable Adaptive Dashboard" width="900" />
+</p>
+
+---
+
 ## ✨ Features
 
 - **Material 3 Expressive Design**:
